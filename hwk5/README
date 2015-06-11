@@ -1,0 +1,22 @@
+//************************************************
+//READ ME
+//NAME: Sheryl Crespo
+//UNI: szc2103
+//************************************************
+
+Programming #1: An application that calculates the shortest path between 
+any given city pair using Dijkstra's algorithm. It reads in the city pairs 
+and distances from a text file and inputs vertices into a priority queue 
+based on Dijkstra. The GUI allows users to choose two cities and maps the 
+cities onto a window, drawing the shortest path between them. An Edge class
+and a Vertex class are necessary as Edges represent paths between cities and 
+Vertices are individual cities. 
+
+Programming #2: An application that creates a minimum spanning tree. It creates 
+a GUI window and draws a map of the cities connected by the tree using Kruskal's 
+algorithm. To carry out Kruskal's algorithm, a KruskalEdge class allows for the 
+creation of an edge based on two vertices and a Sets class allows for the creation
+of sets of vertices. These two classes are necessary as Kruskal's algorithm is 
+carried out as follows. Initially, the set is filled with sets that are each one 
+vertice. In each step, add the cheapest edge that does not create a cycle. This 
+continues until the sets are merged into a single set that is the minimum spanning tree. 
